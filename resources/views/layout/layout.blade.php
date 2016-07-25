@@ -64,7 +64,7 @@
                       <li><a href="index2.html">Testimoni</a></li>
                     </ul>
                   </li>
-                  <li><a><i class="fa fa-edit"></i> Kategori <span class="fa fa-chevron-down"></span></a>
+                  <li><a><i class="fa fa-tags"></i> Kategori <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
                       <li><a href="form.html">Belajar & Mengajar</a></li>
                       <li><a href="form_advanced.html">Baru</a></li>
@@ -89,16 +89,16 @@
                       <li><a href="form_buttons.html">Pariwisata & Hotel</a></li>
                       <li><a href="form_buttons.html">Pelajaran</a></li>
                       <li><a href="form_buttons.html">Sains & Teknologi</a></li>
-                      <li><a href="form_buttons.html">Agama</a></li>
+                      <li><a href="form_buttons.html">Agama/a></li>
                       <li><a href="form_buttons.html">Komputer</a></li>
                       </ul>
                   </li>
-                  <li><a><i class="fa fa-desktop"></i> Data Buku <span class="fa fa-chevron-down"></span></a>
+                  <li><a><i class="fa fa-book"></i> Data Buku <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
                       <li><a href="general_elements.html">Koleksi</a></li>
                     </ul>
                   </li>
-                  <li><a><i class="fa fa-table"></i> Transaksi <span class="fa fa-chevron-down"></span></a>
+                  <li><a><i class="fa fa-shopping-cart"></i> Transaksi <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
                       <li><a href="tables.html">Konfirmasi Pembelian</a></li>
                     </ul>
