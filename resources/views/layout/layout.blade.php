@@ -56,25 +56,36 @@
               <div class="menu_section">
                 <h3>General</h3>
                 <ul class="nav side-menu">
-                  <li><a><i class="fa fa-desktop"></i>Halaman Utama<span class="fa fa-chevron-down"></span></a>
-                  <ul class="nav child_menu">
-                      <li><a href="form.html">Berita Terbaru</a></li>
-                      <li><a href="form.html">Produk Terbaru</a></li>
-                      <li><a href="form_advanced.html">Testimoni</a></li>               
+
+                  <li><a><i class="fa fa-home"></i> Home <span class="fa fa-chevron-down"></span></a>
+                    <ul class="nav child_menu">
+                      <li><a href="index.html">New Realease</a></li>
+                      <li><a href="index2.html">News</a></li>
+                      <li><a href="index2.html">Testimoni</a></li>
                     </ul>
                   </li>
-                  <li><a><i class="fa fa-edit"></i>Kategori<span class="fa fa-chevron-down"></span></a>
+                  <li><a><i class="fa fa-edit"></i> Kategori <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
                       <li><a href="form.html">Anak</a></li>
-                      <li><a href="form_advanced.html">Cerita</a></li>
-                      <li><a href="form_validation.html">Muslim</a></li>
-                      <li><a href="form_wizards.html">Keagamaan</a></li>
+                      <li><a href="form_advanced.html">Remaja/Dewasa</a></li>
+                      <li><a href="form_validation.html">Cooking</a></li>
+                      <li><a href="form_wizards.html">IT</a></li>
                       <li><a href="form_upload.html">Novel</a></li>
-                      <li><a href="form_buttons.html">Sekolah</a></li>
+                      <li><a href="form_buttons.html">Game</a></li>
+                      <li><a href="form_buttons.html">Story</a></li>
+                      </ul>
+                  </li>
+                  <li><a><i class="fa fa-desktop"></i> Data Buku <span class="fa fa-chevron-down"></span></a>
+                    <ul class="nav child_menu">
+                      <li><a href="general_elements.html">Koleksi</a></li>
                     </ul>
                   </li>
-                  <li><a><i class="fa fa-desktop"></i> Keranjang</a></li>
-                  <li><a><i class="fa fa-table"></i>Koleksi</a></li>
+                  <li><a><i class="fa fa-table"></i> Transaksi <span class="fa fa-chevron-down"></span></a>
+                    <ul class="nav child_menu">
+                      <li><a href="tables.html">Keranjang</a></li>
+                    </ul>
+                  </li>
+                  
                   <li><a><i class="fa fa-bar-chart-o"></i> Data Transaksi <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
                       <li><a href="chartjs.html">Laporan</a></li>
@@ -83,7 +94,12 @@
                   </li>
                 </ul>
               </div>
+<<<<<<< HEAD
              </div>
+=======
+              
+            </div>
+>>>>>>> b33a88f84ed192e466229e51776c438dc87e2871
             <!-- /sidebar menu -->
 
             <!-- /menu footer buttons -->
