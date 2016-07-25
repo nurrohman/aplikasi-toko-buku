@@ -56,6 +56,7 @@
               <div class="menu_section">
                 <h3>General</h3>
                 <ul class="nav side-menu">
+
                   <li><a><i class="fa fa-home"></i> Home <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
                       <li><a href="index.html">New Realease</a></li>
@@ -84,6 +85,7 @@
                       <li><a href="tables.html">Konfirmasi Pembelian</a></li>
                     </ul>
                   </li>
+
                   <li><a><i class="fa fa-bar-chart-o"></i> Data Transaksi <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
                       <li><a href="chartjs.html">Laporan</a></li>
@@ -130,15 +132,15 @@
                     <span class=" fa fa-angle-down"></span>
                   </a>
                   <ul class="dropdown-menu dropdown-usermenu pull-right">
-                    <li><a href="javascript:;"> Profile</a></li>
+                    <li><a href="javascript:;"> Profil</a></li>
                     <li>
                       <a href="javascript:;">
                         <span class="badge bg-red pull-right">50%</span>
-                        <span>Settings</span>
+                        <span>Pengaturan</span>
                       </a>
                     </li>
-                    <li><a href="javascript:;">Help</a></li>
-                    <li><a href="login.html"><i class="fa fa-sign-out pull-right"></i> Log Out</a></li>
+                    <li><a href="javascript:;">Bantuan</a></li>
+                    <li><a href="login.html"><i class="fa fa-sign-out pull-right"></i>Keluar</a></li>
                   </ul>
                 </li>
 
@@ -540,7 +542,7 @@
                 <div class="x_content">
                   <div class="dashboard-widget-content">
                     <ul class="quick-list">
-                      <li><i class="fa fa-calendar-o"></i><a href="#">Settings</a>
+                      <li><i class="fa fa-calendar-o"></i><a href="#">Pengaturan</a>
                       </li>
                       <li><i class="fa fa-bars"></i><a href="#">Subscription</a>
                       </li>
