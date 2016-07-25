@@ -85,7 +85,7 @@
                       <li><a href="tables.html">Keranjang</a></li>
                     </ul>
                   </li>
-                  
+
                   <li><a><i class="fa fa-bar-chart-o"></i> Data Transaksi <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
                       <li><a href="chartjs.html">Laporan</a></li>
@@ -94,12 +94,8 @@
                   </li>
                 </ul>
               </div>
-<<<<<<< HEAD
-             </div>
-=======
               
             </div>
->>>>>>> b33a88f84ed192e466229e51776c438dc87e2871
             <!-- /sidebar menu -->
 
             <!-- /menu footer buttons -->
