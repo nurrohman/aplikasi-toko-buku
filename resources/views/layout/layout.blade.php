@@ -81,7 +81,7 @@
                   </li>
                   <li><a><i class="fa fa-table"></i> Transaksi <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
-                      <li><a href="tables.html">Keranjang</a></li>
+                      <li><a href="tables.html">Konfirmasi Pembelian</a></li>
                     </ul>
                   </li>
                   <li><a><i class="fa fa-bar-chart-o"></i> Data Transaksi <span class="fa fa-chevron-down"></span></a>
