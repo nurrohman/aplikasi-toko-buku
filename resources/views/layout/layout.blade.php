@@ -66,13 +66,31 @@
                   </li>
                   <li><a><i class="fa fa-edit"></i> Kategori <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
-                      <li><a href="form.html">Anak</a></li>
-                      <li><a href="form_advanced.html">Remaja/Dewasa</a></li>
-                      <li><a href="form_validation.html">Cooking</a></li>
-                      <li><a href="form_wizards.html">IT</a></li>
-                      <li><a href="form_upload.html">Novel</a></li>
-                      <li><a href="form_buttons.html">Game</a></li>
-                      <li><a href="form_buttons.html">Story</a></li>
+                      <li><a href="form.html">Belajar & Mengajar</a></li>
+                      <li><a href="form_advanced.html">Baru</a></li>
+                      <li><a href="form_validation.html">Bisnis</a></li>
+                      <li><a href="form_wizards.html">Edukasi</a></li>
+                      <li><a href="form_upload.html">Ekonomi</a></li>
+                      <li><a href="form_buttons.html">Fashion</a></li>
+                      <li><a href="form_buttons.html">Hobi</a></li>
+                      <li><a href="form_buttons.html">Horor</a></li>
+                      <li><a href="form_buttons.html">Hukum</a></li>
+                      <li><a href="form_buttons.html">Humor</a></li>
+                      <li><a href="form_buttons.html">Politik</a></li>
+                      <li><a href="form_buttons.html">Interior</a></li>
+                      <li><a href="form_buttons.html">Kamus & Bahasa</a></li>
+                      <li><a href="form_buttons.html">Kesehatan</a></li>
+                      <li><a href="form_buttons.html">Keterampilan</a></li>
+                      <li><a href="form_buttons.html">Komik</a></li>
+                      <li><a href="form_buttons.html">Masak</a></li>
+                      <li><a href="form_buttons.html">Musik</a></li>
+                      <li><a href="form_buttons.html">Novel</a></li>
+                      <li><a href="form_buttons.html">Parenting</a></li>
+                      <li><a href="form_buttons.html">Pariwisata & Hotel</a></li>
+                      <li><a href="form_buttons.html">Pelajaran</a></li>
+                      <li><a href="form_buttons.html">Sains & Teknologi</a></li>
+                      <li><a href="form_buttons.html">Agama</a></li>
+                      <li><a href="form_buttons.html">Komputer</a></li>
                       </ul>
                   </li>
                   <li><a><i class="fa fa-desktop"></i> Data Buku <span class="fa fa-chevron-down"></span></a>
