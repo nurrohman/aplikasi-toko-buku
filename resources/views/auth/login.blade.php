@@ -1,66 +1,80 @@
-@extends('layouts.app')
+<!DOCTYPE html>
+<html>
 
-@section('content')
-<div class="container">
-    <div class="row">
-        <div class="col-md-8 col-md-offset-2">
-            <div class="panel panel-default">
-                <div class="panel-heading">Login</div>
-                <div class="panel-body">
-                    <form class="form-horizontal" role="form" method="POST" action="{{ url('/login') }}">
-                        {{ csrf_field() }}
+<head>
 
-                        <div class="form-group{{ $errors->has('email') ? ' has-error' : '' }}">
-                            <label for="email" class="col-md-4 control-label">E-Mail Address</label>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-                            <div class="col-md-6">
-                                <input id="email" type="email" class="form-control" name="email" value="{{ old('email') }}">
+    <title>Login</title>
 
-                                @if ($errors->has('email'))
-                                    <span class="help-block">
-                                        <strong>{{ $errors->first('email') }}</strong>
-                                    </span>
-                                @endif
-                            </div>
+
+    <link href="{!! asset('css/bootstrap.min.css') !!}" rel="stylesheet">
+    <link href="{!! asset('font-awesome/css/font-awesome.css') !!}" rel="stylesheet">
+
+    <link href="{!! asset('css/style.min.css') !!}" rel="stylesheet">
+
+</head>
+
+<body class="gray-bg">
+
+    <div class="loginColumns animated fadeInDown">
+        <div class="row">
+
+            <div class="col-md-6">
+                <h2 class="font-bold">Login</h2>
+
+                <p>Toko Buku Online</p>
+
+                <p>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+                </p>
+
+                <p>
+                    When an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                </p>
+
+            </div>
+            <div class="col-md-6">
+                <div class="ibox-content">
+
+                    @if (count($errors) > 0)
+                        <div class="alert alert-danger">
+                            <strong>Whoops!</strong> There were some problems with your input.<br><br>
+                            <ul>
+                                @foreach ($errors->all() as $error)
+                                    <li>{{ $error }}</li>
+                                @endforeach
+                            </ul>
                         </div>
+                    @endif
 
-                        <div class="form-group{{ $errors->has('password') ? ' has-error' : '' }}">
-                            <label for="password" class="col-md-4 control-label">Password</label>
+                    <form class="m-t" role="form" method="post" action="/auth/login">
 
-                            <div class="col-md-6">
-                                <input id="password" type="password" class="form-control" name="password">
-
-                                @if ($errors->has('password'))
-                                    <span class="help-block">
-                                        <strong>{{ $errors->first('password') }}</strong>
-                                    </span>
-                                @endif
-                            </div>
-                        </div>
+                        {!! csrf_field() !!}
 
                         <div class="form-group">
-                            <div class="col-md-6 col-md-offset-4">
-                                <div class="checkbox">
-                                    <label>
-                                        <input type="checkbox" name="remember"> Remember Me
-                                    </label>
-                                </div>
-                            </div>
+                            <input type="email" name="email" class="form-control" placeholder="Email" required="" value="{{ old('email') }}">
                         </div>
-
                         <div class="form-group">
-                            <div class="col-md-6 col-md-offset-4">
-                                <button type="submit" class="btn btn-primary">
-                                    <i class="fa fa-btn fa-sign-in"></i> Login
-                                </button>
-
-                                <a class="btn btn-link" href="{{ url('/password/reset') }}">Forgot Your Password?</a>
-                            </div>
+                            <input type="password" name="password" class="form-control" placeholder="Password" required="">
                         </div>
+                        <button type="submit" class="btn btn-primary block full-width m-b">Login</button>
                     </form>
                 </div>
             </div>
         </div>
+        <hr/>
+        <div class="row">
+            <div class="col-md-6">
+                Javan Labs
+            </div>
+            <div class="col-md-6 text-right">
+               <small>&copy; 2015</small>
+            </div>
+        </div>
     </div>
-</div>
-@endsection
+
+</body>
+
+</html>

@@ -23,3 +23,6 @@ Route::get('/register', function () {
 	return view('auth.register');
 });	
 
+Route::get('auth/login', ['as' => 'auth.login', 'uses' => 'Auth\AuthController@getLogin']);
+Route::post('auth/login', 'Auth\AuthController@postLogin');
+

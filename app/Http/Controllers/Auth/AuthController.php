@@ -3,6 +3,8 @@
 namespace App\Http\Controllers\Auth;
 
 use App\User;
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 use Validator;
 use App\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\ThrottlesLogins;
@@ -21,7 +23,27 @@ class AuthController extends Controller
     |
     */
 
-    use AuthenticatesAndRegistersUsers, ThrottlesLogins;
+
+     use AuthenticatesAndRegistersUsers, ThrottlesLogins;
+
+    public function postLogin(Request $request)
+    {
+        $this->validate($request, [
+            $this->loginUsername() => 'required', 'password' => 'required',
+        ]);
+
+
+        if (Auth::attempt(['email' => $request->email, 'password' => $request->password]))
+        {
+            return redirect('/');
+        }
+
+        return redirect($this->loginPath())
+            ->withInput($request->only($this->loginUsername(), 'remember'))
+            ->withErrors([
+                $this->loginUsername() => $this->getFailedLoginMessage(),
+            ]);
+    }
 
     /**
      * Where to redirect users after login / registration.
