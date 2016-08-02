@@ -158,7 +158,7 @@
                       </a>
                     </li>
                     <li><a href="javascript:;">Bantuan</a></li>
-                    <li><a href="login.html"><i class="fa fa-sign-out pull-right"></i>Keluar</a></li>
+                    <li><<a href="{!! route('auth.logout') !!}"><i class="fa fa-sign-out pull-right"></i>Keluar</a></li>
                   </ul>
                 </li>
 
@@ -570,7 +570,7 @@
                       <li><i class="fa fa-bar-chart"></i><a href="#">Auto Renewal</a> </li>
                       <li><i class="fa fa-line-chart"></i><a href="#">Achievements</a>
                       </li>
-                      <li><i class="fa fa-area-chart"></i><a href="#">Logout</a>
+                      <li><i class="fa fa-area-chart"></i><a href="/login">Logout</a>
                       </li>
                     </ul>
 
