@@ -89,7 +89,7 @@
                       <li><a href="form_buttons.html">Pariwisata & Hotel</a></li>
                       <li><a href="form_buttons.html">Pelajaran</a></li>
                       <li><a href="form_buttons.html">Sains & Teknologi</a></li>
-                      <li><a href="form_buttons.html">Agama/a></li>
+                      <li><a href="form_buttons.html">Agama</a></li>
                       <li><a href="form_buttons.html">Komputer</a></li>
                       </ul>
                   </li>
